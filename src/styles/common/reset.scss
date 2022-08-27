@@ -1,0 +1,86 @@
+@import './colors';
+* {
+  background-position: 0 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: $colorbg;
+  color: #000;
+  font-size: 16px;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body,
+body input,
+body select,
+body textarea,
+body button {
+  font-family: 'Roboto', sans-serif;
+}
+svg {
+  fill: currentColor;
+  display: inline-block;
+  vertical-align: middle;
+}
+li {
+  list-style: none;
+}
+input,
+textarea {
+  box-shadow: none;
+  border: 0 none;
+  resize: none;
+  background-color: transparent;
+}
+button {
+  border: 0;
+}
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
+img {
+  border: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  float: none;
+  margin: 0px;
+  padding: 0px;
+  font-weight: inherit;
+  font-size: inherit;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.common-page {
+  background: $colorbg;
+  min-height: 100vh;
+  &.has-header {
+    padding-top: 62px;
+  }
+  &.has-nav {
+    padding-bottom: 78px;
+  }
+}

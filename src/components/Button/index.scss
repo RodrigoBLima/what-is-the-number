@@ -1,0 +1,23 @@
+#custom-buttom {
+  display: flex;
+  align-items: center;
+  
+  height: 42px;
+  padding: 16px;
+  background: linear-gradient(180deg, $orange600 0%, $orange500 100%);
+  border-radius: 4px;
+  cursor: pointer;
+  span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: $neutral000;
+  }
+
+  &:disabled {
+    background: #DDDDDD;
+    border-radius: 4px;
+  }
+}

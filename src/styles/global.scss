@@ -1,0 +1,11 @@
+@import "./common/colors.scss";
+@import "./common/grid.scss";
+@import "./common/reset.scss";
+
+//views 
+@import "../views/Guesses/index.scss";
+
+// components
+@import "../components/Input/index.scss";
+@import "../components/Button/index.scss";
+@import "../components/SevenSegment/index.scss";
