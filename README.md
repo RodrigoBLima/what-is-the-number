@@ -16,10 +16,11 @@ Create .env.local on . of the project and setup your api key
 ## UX
   - Initial Screen  
     <img src="/src/assets/images/initial-screen.png" />
-
+    <br/>
   - Success Screen
     <img src="/src/assets/images/sucess-screen.png" />
-
+    <br/>
+    
  - API error Screen
     <img src="/src/assets/images/error-screen.png" />
 
